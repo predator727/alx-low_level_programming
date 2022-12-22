@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  *  _strcmp - Function which compare two strings and
  *@s1: first string
@@ -28,7 +29,7 @@ int _strcmp(char *s1, char *s2)
 			}
 			else if (s1[i] != s2[i])
 			{
-				diff = s1[i] s2[i];
+				diff = s1[i] - s2[i];
 				break;
 			}
 			else
